@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width+device-width , initial-scale=1.0">
+    <title> Document</title>
+    <script>
+        var status = `<%- JSON.stringify(status)%>`;
+        if (JSON.parse(status) == "Verified") {
+            if (confirm("Do you want to Login?")) {
+                window.location.href = "http://localhost:3000/";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h3>
+        <%= email%>
+    </h3>
+    <form action="" method="post">
+        <label>Reset Password</label>
+        <div>
+
+            <input type="password" name="password" id="password" placeholder="Enter new password"></input>
+        </div>
+        <!-- <label>Confirm Password</label>
+        <div>
+
+            <input name="confirm-password" id="confirm-password" type="password" placeholder="Confirm password"></input>
+        </div> -->
+
+        <div>
+            <button type="submit" className="btn btn-primary">
+                Submit
+            </button>
+        </div>
+
+
+        </div>
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>

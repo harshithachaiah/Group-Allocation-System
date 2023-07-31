@@ -1,0 +1,57 @@
+/* .Sidebar {
+    /* width: 100vw;
+    height: 100vh;
+
+} */
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebarapp {
+    height: 150vh;
+    /* width: 250px; */
+    background-color: rgb(72, 144, 245);
+    /* background-color: rgb(230, 9, 9); */
+}
+
+.SideBarlist {
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
+
+.SideBarlist .row {
+    height: 60px;
+    width: 100%;
+    border: 1px solid;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: azure;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+
+}
+
+.row #title {
+    flex: 70%;
+    place-items: left;
+}
+
+.SideBarlist .row:hover {
+    cursor: pointer;
+    background-color: cornflowerblue
+}
+
+.SideBarlist #active {
+    background-color: cadetblue;
+}

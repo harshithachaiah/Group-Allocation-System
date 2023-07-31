@@ -1,0 +1,60 @@
+.text-center {
+  /* text-align: center; */
+  min-width: calc(100% - 250px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.password-container {
+
+  position: relative;
+  display: flex;
+  margin-bottom: 14px;
+}
+
+i {
+  position: absolute;
+  top: 20%;
+  right: 3%;
+}
+
+i:hover {
+  color: #00fcb6;
+  cursor: pointer;
+}
+
+
+.app {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-view {
+  display: flex;
+}
+
+.pagination-limit {
+  margin-top: -15px;
+}
+
+.limit-width {
+  width: 100px;
+
+}
+
+.bg-color-app {
+  background-color: rgb(72, 144, 245);
+  /* background-color: rgb(230, 9, 9); */
+}
+
+.universityLogo-image {
+  width: 200px;
+  height: auto;
+  opacity: 80%;
+
+}

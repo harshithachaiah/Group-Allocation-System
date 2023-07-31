@@ -1,0 +1,26 @@
+.card-center {
+    width: 650px;
+    margin: auto;
+}
+
+@media (max-width:480px) {
+    .card-center {
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+
+
+.text-right {
+    text-align: right;
+}
+
+.body {
+    /* background-color: rgb(57, 172, 244); */
+    background-color: rgb(230, 9, 9);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
